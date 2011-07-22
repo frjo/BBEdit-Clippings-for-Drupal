@@ -1,0 +1,10 @@
+#INDENT#
+/**
+ * Implements hook_element_info_alter().
+ */
+function #BASENAME#_element_info_alter(&$type) {
+  // Decrease the default size of textfields.
+  if (isset($type['textfield']['#size'])) {
+    $type['textfield']['#size'] = 40;
+  }
+}

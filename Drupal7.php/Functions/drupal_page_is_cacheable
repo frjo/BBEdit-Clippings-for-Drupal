@@ -1,0 +1,1 @@
+drupal_page_is_cacheable(#placeholderstart# $allow_caching = NULL #placeholderend#)

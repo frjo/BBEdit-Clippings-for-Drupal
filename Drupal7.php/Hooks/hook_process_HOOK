@@ -1,0 +1,7 @@
+#INDENT#
+/**
+ * Implements hook_process_HOOK().
+ */
+function #BASENAME#_process_HOOK(&$variables) {
+  $variables['classes'] .= ' my_added_class';
+}

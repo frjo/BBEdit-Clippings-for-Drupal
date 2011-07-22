@@ -1,0 +1,9 @@
+#INDENT#
+/**
+ * Implements hook_field_extra_fields_display_alter().
+ */
+function #BASENAME#_field_extra_fields_display_alter(&$displays, $context) {
+  if ($context['entity_type'] == 'taxonomy_term' && $context['view_mode'] == 'full') {
+    $displays['description']['visible'] = FALSE;
+  }
+}

@@ -1,0 +1,6 @@
+#INDENT#
+/**
+ * Implements hook_node_type_insert().
+ */
+function #BASENAME#_node_type_insert($info) {
+}

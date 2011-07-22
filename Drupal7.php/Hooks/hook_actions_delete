@@ -1,0 +1,9 @@
+#INDENT#
+/**
+ * Implements hook_actions_delete().
+ */
+function #BASENAME#_actions_delete($aid) {
+  db_delete('actions_assignments')
+    ->condition('aid', $aid)
+    ->execute();
+}

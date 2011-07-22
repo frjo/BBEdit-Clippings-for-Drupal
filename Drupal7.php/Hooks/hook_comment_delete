@@ -1,0 +1,7 @@
+#INDENT#
+/**
+ * Implements hook_comment_delete().
+ */
+function #BASENAME#_comment_delete($comment) {
+  drupal_set_message(t('Comment: @subject has been deleted', array('@subject' => $comment->subject)));
+}

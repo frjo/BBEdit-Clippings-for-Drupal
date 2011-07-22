@@ -1,0 +1,1 @@
+drupal_goto(#placeholderstart# $path = '' #placeholderend#,#placeholderstart#  array $options = array() #placeholderend#,#placeholderstart#  $http_response_code = 302 #placeholderend#)

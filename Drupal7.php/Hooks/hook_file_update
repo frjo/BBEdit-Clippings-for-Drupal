@@ -1,0 +1,6 @@
+#INDENT#
+/**
+ * Implements hook_file_update().
+ */
+function #BASENAME#_file_update($file) {
+}

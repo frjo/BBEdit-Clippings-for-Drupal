@@ -1,0 +1,14 @@
+#indent#
+/**
+ * Returns HTML for a wrapper for a menu sub-tree.
+ *
+ * @param $variables
+ *   An associative array containing:
+ *   - tree: An HTML string containing the tree's items.
+ *
+ * @see template_preprocess_menu_tree()
+ * @ingroup themeable
+ */
+function #BASENAME#_menu_tree($variables) {#INSERTION#
+  return '<ul class="menu">' . $variables['tree'] . '</ul>';
+}

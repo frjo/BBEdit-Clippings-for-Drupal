@@ -1,0 +1,9 @@
+#INDENT#
+/**
+ * Implements hook_entity_load().
+ */
+function #BASENAME#_entity_load($entities, $type) {
+  foreach ($entities as $entity) {
+    $entity->foo = mymodule_add_something($entity, $type);
+  }
+}

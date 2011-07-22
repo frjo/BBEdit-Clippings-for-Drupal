@@ -1,0 +1,12 @@
+#INDENT#
+/**
+ * Implements hook_field_attach_delete_bundle().
+ */
+function #BASENAME#_field_attach_delete_bundle($entity_type, $bundle, $instances) {
+  // Remove the extra weights variable information for this bundle.
+  $extra_weights = variable_get('field_extra_weights', array());
+  if (isset($extra_weights[$entity_type][$bundle])) {
+    unset($extra_weights[$entity_type][$bundle]);
+    variable_set('field_extra_weights', $extra_weights);
+  }
+}

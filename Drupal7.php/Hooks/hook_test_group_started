@@ -1,0 +1,6 @@
+#INDENT#
+/**
+ * Implements hook_test_group_started().
+ */
+function #BASENAME#_test_group_started() {
+}

@@ -1,0 +1,1 @@
+kprint_r($#placeholderstart# input #placeholderend#);

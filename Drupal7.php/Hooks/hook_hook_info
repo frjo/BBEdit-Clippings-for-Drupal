@@ -1,0 +1,13 @@
+#INDENT#
+/**
+ * Implements hook_hook_info().
+ */
+function #BASENAME#_hook_info() {
+  $hooks['token_info'] = array(
+    'group' => 'tokens',
+  );
+  $hooks['tokens'] = array(
+    'group' => 'tokens',
+  );
+  return $hooks;
+}

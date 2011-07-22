@@ -1,0 +1,1 @@
+drupal_valid_path(#placeholderstart# $path #placeholderend#,#placeholderstart#  $dynamic_allowed = FALSE #placeholderend#)

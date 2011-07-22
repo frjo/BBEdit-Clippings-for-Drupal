@@ -1,0 +1,9 @@
+#INDENT#
+/**
+ * Implements hook_filter_FILTER_prepare().
+ */
+function #BASENAME#_filter_FILTER_prepare($text, $filter, $format, $langcode, $cache, $cache_id) {
+  // Escape <code> and </code> tags.
+  $text = preg_replace('|<code>(.+?)</code>|se', "[codefilter_code]$1[/codefilter_code]", $text);
+  return $text;
+}

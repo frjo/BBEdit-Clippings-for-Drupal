@@ -1,0 +1,1 @@
+drupal_map_assoc(#placeholderstart# $array #placeholderend#,#placeholderstart#  $function = NULL #placeholderend#)

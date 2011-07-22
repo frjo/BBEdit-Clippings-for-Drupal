@@ -1,0 +1,7 @@
+#INDENT#
+/**
+ * Implements hook_filter_format_update().
+ */
+function #BASENAME#_filter_format_update($format) {
+  mymodule_cache_rebuild();
+}

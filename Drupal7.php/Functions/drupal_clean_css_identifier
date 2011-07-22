@@ -1,0 +1,1 @@
+drupal_clean_css_identifier(#placeholderstart# $identifier #placeholderend#,#placeholderstart#  $filter = array(' ' => '-' #placeholderend#,#placeholderstart#  '_' => '-' #placeholderend#,#placeholderstart#  '/' => '-' #placeholderend#,#placeholderstart#  '[' => '-' #placeholderend#,#placeholderstart#  ']' => '' #placeholderend#))

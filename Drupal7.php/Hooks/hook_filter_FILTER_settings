@@ -1,0 +1,14 @@
+#INDENT#
+/**
+ * Implements hook_filter_FILTER_settings().
+ */
+function #BASENAME#_filter_FILTER_settings($form, &$form_state, $filter, $format, $defaults, $filters) {
+  $filter->settings += $defaults;
+  $elements = array();
+  $elements['nofollow'] = array(
+    '#type' => 'checkbox',
+    '#title' => t('Add rel="nofollow" to all links'),
+    '#default_value' => $filter->settings['nofollow'],
+  );
+  return $elements;
+}

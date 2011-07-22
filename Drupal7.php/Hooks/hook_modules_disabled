@@ -1,0 +1,9 @@
+#INDENT#
+/**
+ * Implements hook_modules_disabled().
+ */
+function #BASENAME#_modules_disabled($modules) {
+  if (in_array('lousy_module', $modules)) {
+    mymodule_enable_functionality();
+  }
+}

@@ -1,0 +1,9 @@
+#INDENT#
+/**
+ * Implements hook_field_attach_prepare_translation_alter().
+ */
+function #BASENAME#_field_attach_prepare_translation_alter(&$entity, $context) {
+  if ($context['entity_type'] == 'custom_entity_type') {
+    $entity->custom_field = $context['source_entity']->custom_field;
+  }
+}

@@ -1,0 +1,8 @@
+#indent#
+switch (#insertion#) {
+  case #insertion#:
+    #insertion#
+    break;
+  default:
+    #insertion#
+}

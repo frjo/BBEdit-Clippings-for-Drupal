@@ -1,0 +1,1 @@
+drupal_override_server_variables(#placeholderstart# $variables = array() #placeholderend#)

@@ -1,0 +1,7 @@
+#INDENT#
+/**
+ * Implements hook_field_attach_update().
+ */
+function #BASENAME#_field_attach_update($entity_type, $entity) {
+  // @todo Needs function body.
+}

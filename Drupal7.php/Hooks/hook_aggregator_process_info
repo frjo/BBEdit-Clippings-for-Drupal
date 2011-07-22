@@ -1,0 +1,10 @@
+#INDENT#
+/**
+ * Implements hook_aggregator_process_info().
+ */
+function #BASENAME#_aggregator_process_info($feed) {
+  return array(
+    'title' => t('Default processor'),
+    'description' => t('Creates lightweight records of feed items.'),
+  );
+}

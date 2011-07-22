@@ -1,0 +1,13 @@
+#INDENT#
+/**
+ * Implements hook_schema_alter().
+ */
+function #BASENAME#_schema_alter(&$schema) {
+  // Add field to existing schema.
+  $schema['users']['fields']['timezone_id'] = array(
+    'type' => 'int',
+    'not null' => TRUE,
+    'default' => 0,
+    'description' => 'Per-user timezone configuration.',
+  );
+}

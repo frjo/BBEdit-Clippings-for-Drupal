@@ -1,0 +1,9 @@
+#INDENT#
+/**
+ * Implements hook_taxonomy_vocabulary_load().
+ */
+function #BASENAME#_taxonomy_vocabulary_load($vocabularies) {
+  foreach ($vocabularies as $vocabulary) {
+    $vocabulary->synonyms = variable_get('taxonomy_' . $vocabulary->vid . '_synonyms', FALSE);
+  }
+}

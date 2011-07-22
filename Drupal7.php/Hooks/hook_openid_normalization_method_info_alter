@@ -1,0 +1,8 @@
+#INDENT#
+/**
+ * Implements hook_openid_normalization_method_info_alter().
+ */
+function #BASENAME#_openid_normalization_method_info_alter(&$methods) {
+  // Remove Google IDP normalization.
+  unset($methods['google_idp']);
+}

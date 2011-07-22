@@ -1,0 +1,8 @@
+#INDENT#
+/**
+ * Implements hook_file_delete().
+ */
+function #BASENAME#_file_delete($file) {
+  // Delete all information associated with the file.
+  db_delete('upload')->condition('fid', $file->fid)->execute();
+}

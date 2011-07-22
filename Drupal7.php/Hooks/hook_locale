@@ -1,0 +1,10 @@
+#INDENT#
+/**
+ * Implements hook_locale().
+ */
+function #BASENAME#_locale($op = 'groups') {
+  switch ($op) {
+    case 'groups':
+      return array('custom' => t('Custom'));
+  }
+}

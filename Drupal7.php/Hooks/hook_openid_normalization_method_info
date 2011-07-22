@@ -1,0 +1,9 @@
+#INDENT#
+/**
+ * Implements hook_openid_normalization_method_info().
+ */
+function #BASENAME#_openid_normalization_method_info() {
+  return array(
+    'new_normalization_idea' => '_my_normalization_method',
+  );
+}

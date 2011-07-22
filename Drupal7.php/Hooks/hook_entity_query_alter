@@ -1,0 +1,7 @@
+#INDENT#
+/**
+ * Implements hook_entity_query_alter().
+ */
+function #BASENAME#_entity_query_alter($query) {
+  $query->executeCallback = 'my_module_query_callback';
+}

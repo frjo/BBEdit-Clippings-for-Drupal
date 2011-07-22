@@ -1,0 +1,10 @@
+#INDENT#
+/**
+ * Implements hook_update().
+ */
+function #BASENAME#_update($node) {
+  db_update('mytable')
+    ->fields(array('extra' => $node->extra))
+    ->condition('nid', $node->nid)
+    ->execute();
+}

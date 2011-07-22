@@ -1,0 +1,7 @@
+#INDENT#
+/**
+ * Implements hook_archiver_info_alter().
+ */
+function #BASENAME#_archiver_info_alter(&$info) {
+  $info['tar']['extensions'][] = 'tgz';
+}

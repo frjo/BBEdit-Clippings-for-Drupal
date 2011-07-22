@@ -1,0 +1,12 @@
+#INDENT#
+/**
+ * Implements hook_insert().
+ */
+function #BASENAME#_insert($node) {
+  db_insert('mytable')
+    ->fields(array(
+      'nid' => $node->nid,
+      'extra' => $node->extra,
+    ))
+    ->execute();
+}

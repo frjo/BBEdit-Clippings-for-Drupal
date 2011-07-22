@@ -1,0 +1,11 @@
+#INDENT#
+/**
+ * Implements hook_admin_paths().
+ */
+function #BASENAME#_admin_paths() {
+  $paths = array(
+    'mymodule/*/add' => TRUE,
+    'mymodule/*/edit' => TRUE,
+  );
+  return $paths;
+}

@@ -1,0 +1,9 @@
+#INDENT#
+/**
+ * Implements hook_boot().
+ */
+function #BASENAME#_boot() {
+  // we need user_access() in the shutdown function. make sure it gets loaded
+  drupal_load('module', 'user');
+  drupal_register_shutdown_function('devel_shutdown');
+}

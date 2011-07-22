@@ -1,0 +1,7 @@
+#INDENT#
+/**
+ * Implements hook_flush_caches().
+ */
+function #BASENAME#_flush_caches() {
+  return array('cache_example');
+}

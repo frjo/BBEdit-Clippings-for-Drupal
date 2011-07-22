@@ -1,0 +1,12 @@
+#INDENT#
+/**
+ * Implements hook_archiver_info().
+ */
+function #BASENAME#_archiver_info() {
+  return array(
+    'tar' => array(
+      'class' => 'ArchiverTar',
+      'extensions' => array('tar', 'tar.gz', 'tar.bz2'),
+    ),
+  );
+}

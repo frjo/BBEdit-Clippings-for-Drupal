@@ -1,0 +1,9 @@
+#INDENT#
+/**
+ * Implements hook_field_purge_field().
+ */
+function #BASENAME#_field_purge_field($field) {
+  db_delete('my_module_field_info')
+    ->condition('id', $field['id'])
+    ->execute();
+}

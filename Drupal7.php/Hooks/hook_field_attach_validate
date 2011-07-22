@@ -1,0 +1,7 @@
+#INDENT#
+/**
+ * Implements hook_field_attach_validate().
+ */
+function #BASENAME#_field_attach_validate($entity_type, $entity, &$errors) {
+  // @todo Needs function body.
+}

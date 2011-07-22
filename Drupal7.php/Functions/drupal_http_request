@@ -1,0 +1,1 @@
+drupal_http_request(#placeholderstart# $url #placeholderend#,#placeholderstart#  array $options = array() #placeholderend#)

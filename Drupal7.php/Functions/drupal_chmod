@@ -1,0 +1,1 @@
+drupal_chmod(#placeholderstart# $uri #placeholderend#,#placeholderstart#  $mode = NULL #placeholderend#)

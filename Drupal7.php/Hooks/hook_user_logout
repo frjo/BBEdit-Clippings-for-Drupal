@@ -1,0 +1,12 @@
+#INDENT#
+/**
+ * Implements hook_user_logout().
+ */
+function #BASENAME#_user_logout($account) {
+  db_insert('logouts')
+    ->fields(array(
+      'uid' => $account->uid,
+      'time' => time(),
+    ))
+    ->execute();
+}

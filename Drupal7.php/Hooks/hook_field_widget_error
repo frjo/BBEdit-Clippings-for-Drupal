@@ -1,0 +1,7 @@
+#INDENT#
+/**
+ * Implements hook_field_widget_error().
+ */
+function #BASENAME#_field_widget_error($element, $error, $form, &$form_state) {
+  form_error($element['value'], $error['message']);
+}

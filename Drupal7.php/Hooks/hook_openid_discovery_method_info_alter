@@ -1,0 +1,8 @@
+#INDENT#
+/**
+ * Implements hook_openid_discovery_method_info_alter().
+ */
+function #BASENAME#_openid_discovery_method_info_alter(&$methods) {
+  // Remove XRI discovery scheme.
+  unset($methods['xri']);
+}

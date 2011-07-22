@@ -1,0 +1,1 @@
+drupal_strtoupper(#placeholderstart# $text #placeholderend#)

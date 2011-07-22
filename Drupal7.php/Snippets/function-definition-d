@@ -1,0 +1,10 @@
+#indent#
+/**
+ * #placeholderstart# Documentation #placeholderend#
+ */
+function #BASENAME#_#placeholderstart#function name#placeholderend#() {
+  $output = '';
+  #insertion#
+
+  return $output;
+}

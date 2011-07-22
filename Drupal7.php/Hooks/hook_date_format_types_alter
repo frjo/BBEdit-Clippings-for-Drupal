@@ -1,0 +1,9 @@
+#INDENT#
+/**
+ * Implements hook_date_format_types_alter().
+ */
+function #BASENAME#_date_format_types_alter(&$types) {
+  foreach ($types as $name => $type) {
+    $types[$name]['locked'] = 1;
+  }
+}

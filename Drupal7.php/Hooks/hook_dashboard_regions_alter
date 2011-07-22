@@ -1,0 +1,8 @@
+#INDENT#
+/**
+ * Implements hook_dashboard_regions_alter().
+ */
+function #BASENAME#_dashboard_regions_alter($regions) {
+  // Remove the sidebar region defined by the core dashboard module.
+  unset($regions['dashboard_sidebar']);
+}

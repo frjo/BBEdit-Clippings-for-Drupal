@@ -1,0 +1,1 @@
+drupal_set_time_limit(#placeholderstart# $time_limit #placeholderend#)

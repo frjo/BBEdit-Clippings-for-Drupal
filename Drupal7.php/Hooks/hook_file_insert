@@ -1,0 +1,6 @@
+#INDENT#
+/**
+ * Implements hook_file_insert().
+ */
+function #BASENAME#_file_insert($file) {
+}

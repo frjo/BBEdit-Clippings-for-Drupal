@@ -1,0 +1,9 @@
+#INDENT#
+/**
+ * Implements hook_aggregator_process().
+ */
+function #BASENAME#_aggregator_process($feed) {
+  foreach ($feed->items as $item) {
+    mymodule_save($item);
+  }
+}

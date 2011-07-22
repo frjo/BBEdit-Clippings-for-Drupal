@@ -1,0 +1,9 @@
+#INDENT#
+/**
+ * Implements hook_file_download_access().
+ */
+function #BASENAME#_file_download_access($field, $entity_type, $entity) {
+  if ($entity_type == 'node') {
+    return node_access('view', $entity);
+  }
+}

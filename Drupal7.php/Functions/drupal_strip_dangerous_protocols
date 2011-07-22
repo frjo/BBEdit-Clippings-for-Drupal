@@ -1,0 +1,1 @@
+drupal_strip_dangerous_protocols(#placeholderstart# $uri #placeholderend#)

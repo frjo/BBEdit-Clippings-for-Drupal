@@ -1,0 +1,9 @@
+#INDENT#
+/**
+ * Implements hook_node_prepare().
+ */
+function #BASENAME#_node_prepare($node) {
+  if (!isset($node->comment)) {
+    $node->comment = variable_get("comment_$node->type", COMMENT_NODE_OPEN);
+  }
+}

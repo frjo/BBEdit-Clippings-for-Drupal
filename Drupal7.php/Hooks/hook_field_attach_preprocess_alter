@@ -1,0 +1,7 @@
+#INDENT#
+/**
+ * Implements hook_field_attach_preprocess_alter().
+ */
+function #BASENAME#_field_attach_preprocess_alter(&$variables, $context) {
+  // @todo Needs function body.
+}

@@ -1,0 +1,9 @@
+#INDENT#
+/**
+ * Implements hook_taxonomy_vocabulary_insert().
+ */
+function #BASENAME#_taxonomy_vocabulary_insert($vocabulary) {
+  if ($vocabulary->synonyms) {
+    variable_set('taxonomy_' . $vocabulary->vid . '_synonyms', TRUE);
+  }
+}

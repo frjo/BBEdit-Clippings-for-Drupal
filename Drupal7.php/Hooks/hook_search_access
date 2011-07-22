@@ -1,0 +1,7 @@
+#INDENT#
+/**
+ * Implements hook_search_access().
+ */
+function #BASENAME#_search_access() {
+  return user_access('access content');
+}

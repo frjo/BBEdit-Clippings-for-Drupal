@@ -1,0 +1,10 @@
+#INDENT#
+/**
+ * Implements hook_field_storage_info_alter().
+ */
+function #BASENAME#_field_storage_info_alter(&$info) {
+  // Add a setting to a storage type.
+  $info['field_sql_storage']['settings'] += array(
+    'mymodule_additional_setting' => 'default value',
+  );
+}

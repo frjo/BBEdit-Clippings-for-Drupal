@@ -1,0 +1,1 @@
+drupal_set_page_content(#placeholderstart# $content = NULL #placeholderend#)

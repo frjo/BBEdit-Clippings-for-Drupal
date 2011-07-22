@@ -1,0 +1,7 @@
+#INDENT#
+/**
+ * Implements hook_trigger_info_alter().
+ */
+function #BASENAME#_trigger_info_alter(&$triggers) {
+  $triggers['node']['node_insert']['label'] = t('When content is saved');
+}

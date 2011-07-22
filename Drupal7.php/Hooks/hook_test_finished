@@ -1,0 +1,6 @@
+#INDENT#
+/**
+ * Implements hook_test_finished().
+ */
+function #BASENAME#_test_finished($results) {
+}

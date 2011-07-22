@@ -1,0 +1,1 @@
+drupal_process_form(#placeholderstart# $form_id #placeholderend#,#placeholderstart#  &$form #placeholderend#,#placeholderstart#  &$form_state #placeholderend#)

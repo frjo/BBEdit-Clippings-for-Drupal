@@ -1,0 +1,10 @@
+#INDENT#
+/**
+ * Implements hook_path_update().
+ */
+function #BASENAME#_path_update($path) {
+  db_update('mytable')
+    ->fields(array('alias' => $path['alias']))
+    ->condition('pid', $path['pid'])
+    ->execute();
+}

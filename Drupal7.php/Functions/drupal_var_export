@@ -1,0 +1,1 @@
+drupal_var_export(#placeholderstart# $var #placeholderend#,#placeholderstart#  $prefix = '' #placeholderend#)

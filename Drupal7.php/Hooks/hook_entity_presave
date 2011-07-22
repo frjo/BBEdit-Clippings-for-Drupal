@@ -1,0 +1,7 @@
+#INDENT#
+/**
+ * Implements hook_entity_presave().
+ */
+function #BASENAME#_entity_presave($entity, $type) {
+  $entity->changed = REQUEST_TIME;
+}

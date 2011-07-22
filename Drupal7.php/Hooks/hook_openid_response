@@ -1,0 +1,9 @@
+#INDENT#
+/**
+ * Implements hook_openid_response().
+ */
+function #BASENAME#_openid_response($response, $account) {
+  if (isset($response['openid.ns.ax'])) {
+    _mymodule_store_ax_fields($response, $account);
+  }
+}

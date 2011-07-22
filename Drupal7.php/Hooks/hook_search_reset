@@ -1,0 +1,10 @@
+#INDENT#
+/**
+ * Implements hook_search_reset().
+ */
+function #BASENAME#_search_reset() {
+  db_update('search_dataset')
+    ->fields(array('reindex' => REQUEST_TIME))
+    ->condition('type', 'node')
+    ->execute();
+}

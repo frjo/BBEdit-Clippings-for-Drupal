@@ -1,0 +1,7 @@
+#INDENT#
+/**
+ * Implements hook_uninstall().
+ */
+function #BASENAME#_uninstall() {
+  variable_del('upload_file_types');
+}

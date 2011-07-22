@@ -1,0 +1,1 @@
+drupal_verify_install_file(#placeholderstart# $file #placeholderend#,#placeholderstart#  $mask = NULL #placeholderend#,#placeholderstart#  $type = 'file' #placeholderend#)

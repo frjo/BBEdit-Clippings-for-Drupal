@@ -1,0 +1,7 @@
+#INDENT#
+/**
+ * Implements hook_field_delete_field().
+ */
+function #BASENAME#_field_delete_field($field) {
+  // @todo Needs function body.
+}

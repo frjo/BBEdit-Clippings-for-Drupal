@@ -1,0 +1,7 @@
+#INDENT#
+/**
+ * Implements hook_language_fallback_candidates_alter().
+ */
+function #BASENAME#_language_fallback_candidates_alter(array &$fallback_candidates) {
+  $fallback_candidates = array_reverse($fallback_candidates);
+}

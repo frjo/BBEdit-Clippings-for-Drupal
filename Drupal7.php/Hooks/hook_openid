@@ -1,0 +1,10 @@
+#INDENT#
+/**
+ * Implements hook_openid().
+ */
+function #BASENAME#_openid($op, $request) {
+  if ($op == 'request') {
+    $request['openid.identity'] = 'http://myname.myopenid.com/';
+  }
+  return $request;
+}

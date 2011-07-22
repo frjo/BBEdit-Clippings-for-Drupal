@@ -1,0 +1,7 @@
+#INDENT#
+/**
+ * Implements hook_field_attach_presave().
+ */
+function #BASENAME#_field_attach_presave($entity_type, $entity) {
+  // @todo Needs function body.
+}

@@ -1,0 +1,8 @@
+#INDENT#
+/**
+ * Implements hook_overlay_child_initialize().
+ */
+function #BASENAME#_overlay_child_initialize() {
+  // Add our custom JavaScript.
+  drupal_add_js(drupal_get_path('module', 'hook') . '/hook-overlay-child.js');
+}

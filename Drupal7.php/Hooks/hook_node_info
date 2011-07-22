@@ -1,0 +1,13 @@
+#INDENT#
+/**
+ * Implements hook_node_info().
+ */
+function #BASENAME#_node_info() {
+  return array(
+    'blog' => array(
+      'name' => t('Blog entry'),
+      'base' => 'blog',
+      'description' => t('Use for multi-user blogs. Every user gets a personal blog.'),
+    )
+  );
+}

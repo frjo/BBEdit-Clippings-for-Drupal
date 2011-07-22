@@ -1,0 +1,1 @@
+drupal_encode_path(#placeholderstart# $path #placeholderend#)

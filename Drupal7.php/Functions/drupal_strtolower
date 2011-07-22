@@ -1,0 +1,1 @@
+drupal_strtolower(#placeholderstart# $text #placeholderend#)

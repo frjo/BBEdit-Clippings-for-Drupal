@@ -1,0 +1,8 @@
+#INDENT#
+/**
+ * Implements hook_search_preprocess().
+ */
+function #BASENAME#_search_preprocess($text) {
+  // Do processing on $text
+  return $text;
+}

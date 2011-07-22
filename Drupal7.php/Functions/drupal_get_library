@@ -1,0 +1,1 @@
+drupal_get_library(#placeholderstart# $module #placeholderend#,#placeholderstart#  $name = NULL #placeholderend#)

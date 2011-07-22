@@ -1,0 +1,1 @@
+drupal_schema_fields_sql(#placeholderstart# $table #placeholderend#,#placeholderstart#  $prefix = NULL #placeholderend#)

@@ -1,0 +1,7 @@
+#INDENT#
+/**
+ * Implements hook_comment_unpublish().
+ */
+function #BASENAME#_comment_unpublish($comment) {
+  drupal_set_message(t('Comment: @subject has been unpublished', array('@subject' => $comment->subject)));
+}

@@ -1,0 +1,6 @@
+#INDENT#
+/**
+ * Implements hook_file_copy().
+ */
+function #BASENAME#_file_copy($file, $source) {
+}

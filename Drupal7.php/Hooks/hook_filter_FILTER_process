@@ -1,0 +1,8 @@
+#INDENT#
+/**
+ * Implements hook_filter_FILTER_process().
+ */
+function #BASENAME#_filter_FILTER_process($text, $filter, $format, $langcode, $cache, $cache_id) {
+  $text = preg_replace('|\[codefilter_code\](.+?)\[/codefilter_code\]|se', "<pre>$1</pre>", $text);
+  return $text;
+}

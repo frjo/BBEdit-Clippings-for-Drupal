@@ -1,0 +1,12 @@
+#INDENT#
+/**
+ * Implements hook_user_insert().
+ */
+function #BASENAME#_user_insert(&$edit, $account, $category) {
+  db_insert('mytable')
+    ->fields(array(
+      'myfield' => $edit['myfield'],
+      'uid' => $account->uid,
+    ))
+    ->execute();
+}

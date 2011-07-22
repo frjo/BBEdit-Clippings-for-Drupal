@@ -1,0 +1,10 @@
+#INDENT#
+/**
+ * Implements hook_user_role_presave().
+ */
+function #BASENAME#_user_role_presave($role) {
+  // Set a UUID for the user role if it doesn't already exist
+  if (empty($role->uuid)) {
+    $role->uuid = uuid_uuid();
+  }
+}

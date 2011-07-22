@@ -1,0 +1,1 @@
+drupal_delete_file_if_stale(#placeholderstart# $uri #placeholderend#)

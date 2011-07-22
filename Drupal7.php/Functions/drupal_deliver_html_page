@@ -1,0 +1,1 @@
+drupal_deliver_html_page(#placeholderstart# $page_callback_result #placeholderend#)

@@ -1,0 +1,7 @@
+#INDENT#
+/**
+ * Implements hook_enable().
+ */
+function #BASENAME#_enable() {
+  mymodule_cache_rebuild();
+}

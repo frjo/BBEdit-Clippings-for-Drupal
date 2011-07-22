@@ -1,0 +1,1 @@
+drupal_get_http_header(#placeholderstart# $name = NULL #placeholderend#)

@@ -1,0 +1,10 @@
+#INDENT#
+/**
+ * Implements hook_file_download_access_alter().
+ */
+function #BASENAME#_file_download_access_alter(&$grants, $field, $entity_type, $entity) {
+  // For our example module, we always enforce the rules set by node module.
+  if (isset($grants['node'])) {
+    $grants = array('node' => $grants['node']);
+  }
+}

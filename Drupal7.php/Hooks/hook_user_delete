@@ -1,0 +1,9 @@
+#INDENT#
+/**
+ * Implements hook_user_delete().
+ */
+function #BASENAME#_user_delete($account) {
+  db_delete('mytable')
+    ->condition('uid', $account->uid)
+    ->execute();
+}

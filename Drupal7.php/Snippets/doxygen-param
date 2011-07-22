@@ -1,0 +1,9 @@
+#indent#
+/**
+ * #placeholderstart# Documentation #placeholderend#
+ *
+ * @param #placeholderstart# $param #placeholderend#
+ *   #placeholderstart# Description #placeholderend#
+ * @return
+ *   #placeholderstart# Description #placeholderend#
+ */

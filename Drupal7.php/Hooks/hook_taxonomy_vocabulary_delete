@@ -1,0 +1,9 @@
+#INDENT#
+/**
+ * Implements hook_taxonomy_vocabulary_delete().
+ */
+function #BASENAME#_taxonomy_vocabulary_delete($vocabulary) {
+  if (variable_get('taxonomy_' . $vocabulary->vid . '_synonyms', FALSE)) {
+    variable_del('taxonomy_' . $vocabulary->vid . '_synonyms');
+  }
+}

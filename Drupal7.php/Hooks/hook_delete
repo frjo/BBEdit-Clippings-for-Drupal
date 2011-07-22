@@ -1,0 +1,9 @@
+#INDENT#
+/**
+ * Implements hook_delete().
+ */
+function #BASENAME#_delete($node) {
+  db_delete('mytable')
+    ->condition('nid', $nid->nid)
+    ->execute();
+}

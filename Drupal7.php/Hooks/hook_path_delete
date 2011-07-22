@@ -1,0 +1,9 @@
+#INDENT#
+/**
+ * Implements hook_path_delete().
+ */
+function #BASENAME#_path_delete($path) {
+  db_delete('mytable')
+    ->condition('pid', $path['pid'])
+    ->execute();
+}

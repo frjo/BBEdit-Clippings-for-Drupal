@@ -1,0 +1,8 @@
+#INDENT#
+/**
+ * Implements hook_countries_alter().
+ */
+function #BASENAME#_countries_alter(&$countries) {
+  // Elbonia is now independent, so add it to the country list.
+  $countries['EB'] = 'Elbonia';
+}

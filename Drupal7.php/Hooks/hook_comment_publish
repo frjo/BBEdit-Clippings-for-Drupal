@@ -1,0 +1,7 @@
+#INDENT#
+/**
+ * Implements hook_comment_publish().
+ */
+function #BASENAME#_comment_publish($comment) {
+  drupal_set_message(t('Comment: @subject has been published', array('@subject' => $comment->subject)));
+}

@@ -1,0 +1,8 @@
+#INDENT#
+/**
+ * Implements hook_menu_alter().
+ */
+function #BASENAME#_menu_alter(&$items) {
+  // Example - disable the page at node/add
+  $items['node/add']['access callback'] = FALSE;
+}

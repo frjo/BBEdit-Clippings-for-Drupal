@@ -1,0 +1,8 @@
+#INDENT#
+/**
+ * Implements hook_image_style_flush().
+ */
+function #BASENAME#_image_style_flush($style) {
+  // Empty cached data that contains information about the style.
+  cache_clear_all('*', 'cache_mymodule', TRUE);
+}

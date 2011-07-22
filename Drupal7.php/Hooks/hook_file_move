@@ -1,0 +1,6 @@
+#INDENT#
+/**
+ * Implements hook_file_move().
+ */
+function #BASENAME#_file_move($file, $source) {
+}

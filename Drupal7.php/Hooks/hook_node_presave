@@ -1,0 +1,12 @@
+#INDENT#
+/**
+ * Implements hook_node_presave().
+ */
+function #BASENAME#_node_presave($node) {
+  if ($node->nid && $node->moderate) {
+    // Reset votes when node is updated:
+    $node->score = 0;
+    $node->users = '';
+    $node->votes = 0;
+  }
+}

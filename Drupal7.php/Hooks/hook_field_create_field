@@ -1,0 +1,7 @@
+#INDENT#
+/**
+ * Implements hook_field_create_field().
+ */
+function #BASENAME#_field_create_field($field) {
+  // @todo Needs function body.
+}

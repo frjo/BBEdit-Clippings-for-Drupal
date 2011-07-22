@@ -1,0 +1,1 @@
+drupal_render(#placeholderstart# &$elements #placeholderend#)

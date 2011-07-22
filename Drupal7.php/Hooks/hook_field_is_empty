@@ -1,0 +1,10 @@
+#INDENT#
+/**
+ * Implements hook_field_is_empty().
+ */
+function #BASENAME#_field_is_empty($item, $field) {
+  if (empty($item['value']) && (string) $item['value'] !== '0') {
+    return TRUE;
+  }
+  return FALSE;
+}

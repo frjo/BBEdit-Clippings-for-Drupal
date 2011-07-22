@@ -1,0 +1,8 @@
+#INDENT#
+/**
+ * Implements hook_css_alter().
+ */
+function #BASENAME#_css_alter(&$css) {
+  // Remove defaults.css file.
+  unset($css[drupal_get_path('module', 'system') . '/defaults.css']);
+}

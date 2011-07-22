@@ -1,0 +1,1 @@
+drupal_lookup_path(#placeholderstart# $action #placeholderend#,#placeholderstart#  $path = '' #placeholderend#,#placeholderstart#  $path_language = NULL #placeholderend#)

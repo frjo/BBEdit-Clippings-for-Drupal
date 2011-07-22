@@ -1,0 +1,1 @@
+drupal_http_build_query(#placeholderstart# array $query #placeholderend#,#placeholderstart#  $parent = '' #placeholderend#)

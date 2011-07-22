@@ -1,0 +1,7 @@
+#INDENT#
+/**
+ * Implements hook_disable().
+ */
+function #BASENAME#_disable() {
+  mymodule_cache_rebuild();
+}

@@ -1,0 +1,1 @@
+drupal_mail(#placeholderstart# $module #placeholderend#,#placeholderstart#  $key #placeholderend#,#placeholderstart#  $to #placeholderend#,#placeholderstart#  $language #placeholderend#,#placeholderstart#  $params = array() #placeholderend#,#placeholderstart#  $from = NULL #placeholderend#,#placeholderstart#  $send = TRUE #placeholderend#)

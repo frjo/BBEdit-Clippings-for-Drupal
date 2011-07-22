@@ -1,0 +1,11 @@
+#INDENT#
+/**
+ * Implements hook_search_info().
+ */
+function #BASENAME#_search_info() {
+  return array(
+    'title' => 'Content',
+    'path' => 'node',
+    'conditions_callback' => 'sample_search_conditions_callback',
+  );
+}

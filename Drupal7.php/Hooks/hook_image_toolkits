@@ -1,0 +1,16 @@
+#INDENT#
+/**
+ * Implements hook_image_toolkits().
+ */
+function #BASENAME#_image_toolkits() {
+  return array(
+    'working' => array(
+      'title' => t('A toolkit that works.'),
+      'available' => TRUE,
+    ),
+    'broken' => array(
+      'title' => t('A toolkit that is "broken" and will not be listed.'),
+      'available' => FALSE,
+    ),
+  );
+}

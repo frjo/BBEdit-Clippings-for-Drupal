@@ -1,0 +1,8 @@
+#INDENT#
+/**
+ * Implements hook_comment_insert().
+ */
+function #BASENAME#_comment_insert($comment) {
+  // Reindex the node when comments are added.
+  search_touch_node($comment->nid);
+}

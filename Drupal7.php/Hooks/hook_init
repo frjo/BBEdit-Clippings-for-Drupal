@@ -1,0 +1,11 @@
+#INDENT#
+/**
+ * Implements hook_init().
+ */
+function #BASENAME#_init() {
+  // Since this file should only be loaded on the front page, it cannot be
+  // declared in the info file.
+  if (drupal_is_front_page()) {
+    drupal_add_css(drupal_get_path('module', 'foo') . '/foo.css');
+  }
+}

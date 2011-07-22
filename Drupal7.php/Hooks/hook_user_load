@@ -1,0 +1,10 @@
+#INDENT#
+/**
+ * Implements hook_user_load().
+ */
+function #BASENAME#_user_load($users) {
+  $result = db_query('SELECT uid, foo FROM {my_table} WHERE uid IN (:uids)', array(':uids' => array_keys($users)));
+  foreach ($result as $record) {
+    $users[$record->uid]->foo = $record->foo;
+  }
+}

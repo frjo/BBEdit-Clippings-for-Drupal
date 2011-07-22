@@ -1,0 +1,7 @@
+#INDENT#
+/**
+ * Implements hook_aggregator_remove().
+ */
+function #BASENAME#_aggregator_remove($feed) {
+  mymodule_remove_items($feed->fid);
+}
