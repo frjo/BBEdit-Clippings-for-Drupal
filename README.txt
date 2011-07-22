@@ -22,6 +22,22 @@ Copy the Drupal7.php folder in to your
 ~/Library/Application Support/BBEdit/Clippings
 folder and restart BBEdit.
 
+Tips about ctags:
+-----------------
+With ctags files you get autocompletion of functions, classes etc.
+
+Run the following commands in the root of a Drupal install to
+generate ctags files for PHP and JavaScript:
+
+/Applications/BBEdit.app/Contents/Helpers/ctags --langmap=php:.engine.inc.module.theme.php.test.install --php-kinds=cdfi --languages=php --excmd=number --tag-relative=no --fields=+a+m+n+S -f drupal_ctags_php.txt --recurse "$PWD"
+/Applications/BBEdit.app/Contents/Helpers/ctags --languages=JavaScript --excmd=number --tag-relative=no --fields=+a+m+n+S -f drupal_ctags_js.txt --recurse "$PWD"
+
+Copy them to these folders to activate them:
+
+~/Library/Application Support/BBEdit/Completion Data/JavaScript
+~/Library/Application Support/BBEdit/Completion Data/PHP
+
+
 Bugs and Suggestions:
 ---------------------
 Should be submitted to:
