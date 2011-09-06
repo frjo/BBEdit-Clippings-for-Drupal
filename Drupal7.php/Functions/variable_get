@@ -1,0 +1,1 @@
+variable_get(#placeholderstart# $name #placeholderend#,#placeholderstart# $default = NULL #placeholderend#)

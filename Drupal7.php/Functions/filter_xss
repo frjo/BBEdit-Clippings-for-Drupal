@@ -1,0 +1,1 @@
+filter_xss(#placeholderstart# $string #placeholderend#, #placeholderstart# $allowed_tags = array('a', 'em', 'strong', 'cite', 'blockquote', 'code', 'ul', 'ol', 'li', 'dl', 'dt', 'dd') #placeholderend#)

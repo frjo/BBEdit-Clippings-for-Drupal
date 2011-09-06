@@ -1,0 +1,1 @@
+filter_xss_admin(#placeholderstart# $string #placeholderend#)
