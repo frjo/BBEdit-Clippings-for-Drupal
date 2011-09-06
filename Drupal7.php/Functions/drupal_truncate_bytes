@@ -1,1 +1,1 @@
-drupal_truncate_bytes(#placeholderstart# $string #placeholderend#,#placeholderstart#  $len #placeholderend#)
+drupal_truncate_bytes(#placeholderstart# $string #placeholderend#,#placeholderstart# $len #placeholderend#)

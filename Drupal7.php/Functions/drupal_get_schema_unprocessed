@@ -1,1 +1,1 @@
-drupal_get_schema_unprocessed(#placeholderstart# $module #placeholderend#,#placeholderstart#  $table = NULL #placeholderend#)
+drupal_get_schema_unprocessed(#placeholderstart# $module #placeholderend#,#placeholderstart# $table = NULL #placeholderend#)

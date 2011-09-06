@@ -1,1 +1,1 @@
-theme(#placeholderstart# $hook #placeholderend#,#placeholderstart#  $variables = array() #placeholderend#)
+theme(#placeholderstart# $hook #placeholderend#,#placeholderstart# $variables = array() #placeholderend#)

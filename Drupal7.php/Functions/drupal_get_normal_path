@@ -1,1 +1,1 @@
-drupal_get_normal_path(#placeholderstart# $path #placeholderend#,#placeholderstart#  $path_language = NULL #placeholderend#)
+drupal_get_normal_path(#placeholderstart# $path #placeholderend#,#placeholderstart# $path_language = NULL #placeholderend#)

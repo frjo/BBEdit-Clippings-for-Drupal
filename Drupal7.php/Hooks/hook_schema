@@ -32,12 +32,12 @@ function #BASENAME#_schema() {
         'default' => ''),
       ),
     'indexes' => array(
-      'node_changed'        => array('changed'),
-      'node_created'        => array('created'),
+      'node_changed' => array('changed'),
+      'node_created' => array('created'),
       ),
     'unique keys' => array(
       'nid_vid' => array('nid', 'vid'),
-      'vid'     => array('vid')
+      'vid' => array('vid'),
       ),
     'foreign keys' => array(
       'node_revision' => array(
@@ -46,7 +46,7 @@ function #BASENAME#_schema() {
         ),
       'node_author' => array(
         'table' => 'users',
-        'columns' => array('uid' => 'uid')
+        'columns' => array('uid' => 'uid'),
         ),
        ),
     'primary key' => array('nid'),

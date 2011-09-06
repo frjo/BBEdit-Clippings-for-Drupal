@@ -1,1 +1,1 @@
-drupal_convert_to_utf8(#placeholderstart# $data #placeholderend#,#placeholderstart#  $encoding #placeholderend#)
+drupal_convert_to_utf8(#placeholderstart# $data #placeholderend#,#placeholderstart# $encoding #placeholderend#)

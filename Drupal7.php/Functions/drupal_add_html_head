@@ -1,1 +1,1 @@
-drupal_add_html_head(#placeholderstart# $data = NULL #placeholderend#,#placeholderstart#  $key = NULL #placeholderend#)
+drupal_add_html_head(#placeholderstart# $data = NULL #placeholderend#,#placeholderstart# $key = NULL #placeholderend#)

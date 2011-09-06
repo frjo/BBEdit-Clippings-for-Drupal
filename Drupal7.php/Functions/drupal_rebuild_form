@@ -1,1 +1,1 @@
-drupal_rebuild_form(#placeholderstart# $form_id #placeholderend#,#placeholderstart#  &$form_state #placeholderend#,#placeholderstart#  $old_form = NULL #placeholderend#)
+drupal_rebuild_form(#placeholderstart# $form_id #placeholderend#,#placeholderstart# &$form_state #placeholderend#,#placeholderstart# $old_form = NULL #placeholderend#)

@@ -1,1 +1,1 @@
-drupal_check_incompatibility(#placeholderstart# $v #placeholderend#,#placeholderstart#  $current_version #placeholderend#)
+drupal_check_incompatibility(#placeholderstart# $v #placeholderend#,#placeholderstart# $current_version #placeholderend#)

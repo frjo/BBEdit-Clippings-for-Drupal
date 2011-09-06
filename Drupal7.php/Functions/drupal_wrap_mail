@@ -1,1 +1,1 @@
-drupal_wrap_mail(#placeholderstart# $text #placeholderend#,#placeholderstart#  $indent = '' #placeholderend#)
+drupal_wrap_mail(#placeholderstart# $text #placeholderend#,#placeholderstart# $indent = '' #placeholderend#)

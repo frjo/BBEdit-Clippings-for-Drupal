@@ -1,1 +1,1 @@
-drupal_form_submit(#placeholderstart# $form_id #placeholderend#,#placeholderstart#  &$form_state #placeholderend#)
+drupal_form_submit(#placeholderstart# $form_id #placeholderend#,#placeholderstart# &$form_state #placeholderend#)

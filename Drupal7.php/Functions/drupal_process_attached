@@ -1,1 +1,1 @@
-drupal_process_attached(#placeholderstart# $elements #placeholderend#,#placeholderstart#  $group = JS_DEFAULT #placeholderend#,#placeholderstart#  $dependency_check = FALSE #placeholderend#,#placeholderstart#  $every_page = NULL #placeholderend#)
+drupal_process_attached(#placeholderstart# $elements #placeholderend#,#placeholderstart# $group = JS_DEFAULT #placeholderend#,#placeholderstart# $dependency_check = FALSE #placeholderend#,#placeholderstart# $every_page = NULL #placeholderend#)

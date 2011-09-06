@@ -1,1 +1,1 @@
-drupal_substr(#placeholderstart# $text #placeholderend#,#placeholderstart#  $start #placeholderend#,#placeholderstart#  $length = NULL #placeholderend#)
+drupal_substr(#placeholderstart# $text #placeholderend#,#placeholderstart# $start #placeholderend#,#placeholderstart# $length = NULL #placeholderend#)

@@ -1,1 +1,1 @@
-drupal_uninstall_modules(#placeholderstart# $module_list = array() #placeholderend#,#placeholderstart#  $uninstall_dependents = TRUE #placeholderend#)
+drupal_uninstall_modules(#placeholderstart# $module_list = array() #placeholderend#,#placeholderstart# $uninstall_dependents = TRUE #placeholderend#)

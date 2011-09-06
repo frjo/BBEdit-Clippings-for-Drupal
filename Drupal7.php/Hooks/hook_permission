@@ -4,7 +4,7 @@
  */
 function #BASENAME#_permission() {
   return array(
-    'administer my module' =>  array(
+    'administer my module' => array(
       'title' => t('Administer my module'),
       'description' => t('Perform administration tasks for my module.'),
     ),

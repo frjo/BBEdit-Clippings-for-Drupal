@@ -1,1 +1,1 @@
-drupal_write_record(#placeholderstart# $table #placeholderend#,#placeholderstart#  &$record #placeholderend#,#placeholderstart#  $primary_keys = array() #placeholderend#)
+drupal_write_record(#placeholderstart# $table #placeholderend#,#placeholderstart# &$record #placeholderend#,#placeholderstart# $primary_keys = array() #placeholderend#)

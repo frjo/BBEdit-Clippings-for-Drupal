@@ -1,1 +1,1 @@
-drupal_get_schema(#placeholderstart# $table = NULL #placeholderend#,#placeholderstart#  $rebuild = FALSE #placeholderend#)
+drupal_get_schema(#placeholderstart# $table = NULL #placeholderend#,#placeholderstart# $rebuild = FALSE #placeholderend#)
