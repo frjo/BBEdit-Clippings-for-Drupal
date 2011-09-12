@@ -1,1 +1,1 @@
-watchdog(#placeholderstart# $type #placeholderend#,#placeholderstart# $message #placeholderend#,#placeholderstart# $variables = array() #placeholderend#,#placeholderstart# $severity = WATCHDOG_NOTICE #placeholderend#,#placeholderstart# $link = NULL #placeholderend#)
+watchdog(#placeholderstart# $type #placeholderend#, #placeholderstart# $message #placeholderend#, #placeholderstart# $variables = array() #placeholderend#, #placeholderstart# $severity = WATCHDOG_NOTICE #placeholderend#, #placeholderstart# $link = NULL #placeholderend#)

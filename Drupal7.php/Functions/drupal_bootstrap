@@ -1,1 +1,1 @@
-drupal_bootstrap(#placeholderstart# $phase = NULL #placeholderend#,#placeholderstart# $new_phase = TRUE #placeholderend#)
+drupal_bootstrap(#placeholderstart# $phase = NULL #placeholderend#, #placeholderstart# $new_phase = TRUE #placeholderend#)

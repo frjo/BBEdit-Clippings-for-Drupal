@@ -1,1 +1,1 @@
-menu_get_object(#placeholderstart# $type = 'node' #placeholderend#,#placeholderstart# $position = 1 #placeholderend#,#placeholderstart# $path = NULL #placeholderend#)
+menu_get_object(#placeholderstart# $type = 'node' #placeholderend#, #placeholderstart# $position = 1 #placeholderend#, #placeholderstart# $path = NULL #placeholderend#)

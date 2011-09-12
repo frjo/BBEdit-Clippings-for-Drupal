@@ -1,1 +1,1 @@
-variable_set(#placeholderstart# $name #placeholderend#,#placeholderstart# $value #placeholderend#)
+variable_set(#placeholderstart# $name #placeholderend#, #placeholderstart# $value #placeholderend#)

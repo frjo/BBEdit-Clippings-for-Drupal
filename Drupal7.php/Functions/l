@@ -1,1 +1,1 @@
-l(#placeholderstart# $text #placeholderend#,#placeholderstart# $path #placeholderend#,#placeholderstart# array $options = array() #placeholderend#)
+l(#placeholderstart# $text #placeholderend#, #placeholderstart# $path #placeholderend#, #placeholderstart# array $options = array() #placeholderend#)

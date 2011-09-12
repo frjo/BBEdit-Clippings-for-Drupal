@@ -1,1 +1,1 @@
-drupal_rmdir(#placeholderstart# $uri #placeholderend#,#placeholderstart# $context = NULL #placeholderend#)
+drupal_rmdir(#placeholderstart# $uri #placeholderend#, #placeholderstart# $context = NULL #placeholderend#)

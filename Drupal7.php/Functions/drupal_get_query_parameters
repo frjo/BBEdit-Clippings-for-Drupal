@@ -1,1 +1,1 @@
-drupal_get_query_parameters(#placeholderstart# array $query = NULL #placeholderend#,#placeholderstart# array $exclude = array('q' #placeholderend#),#placeholderstart# $parent = '' #placeholderend#)
+drupal_get_query_parameters(#placeholderstart# array $query = NULL #placeholderend#, #placeholderstart# array $exclude = array('q' #placeholderend#), #placeholderstart# $parent = '' #placeholderend#)

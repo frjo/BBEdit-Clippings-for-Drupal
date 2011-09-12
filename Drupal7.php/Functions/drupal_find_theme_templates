@@ -1,1 +1,1 @@
-drupal_find_theme_templates(#placeholderstart# $cache #placeholderend#,#placeholderstart# $extension #placeholderend#,#placeholderstart# $path #placeholderend#)
+drupal_find_theme_templates(#placeholderstart# $cache #placeholderend#, #placeholderstart# $extension #placeholderend#, #placeholderstart# $path #placeholderend#)

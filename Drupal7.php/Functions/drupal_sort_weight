@@ -1,1 +1,1 @@
-drupal_sort_weight(#placeholderstart# $a #placeholderend#,#placeholderstart# $b #placeholderend#)
+drupal_sort_weight(#placeholderstart# $a #placeholderend#, #placeholderstart# $b #placeholderend#)

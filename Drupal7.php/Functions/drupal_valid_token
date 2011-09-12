@@ -1,1 +1,1 @@
-drupal_valid_token(#placeholderstart# $token #placeholderend#,#placeholderstart# $value = '' #placeholderend#,#placeholderstart# $skip_anonymous = FALSE #placeholderend#)
+drupal_valid_token(#placeholderstart# $token #placeholderend#, #placeholderstart# $value = '' #placeholderend#, #placeholderstart# $skip_anonymous = FALSE #placeholderend#)

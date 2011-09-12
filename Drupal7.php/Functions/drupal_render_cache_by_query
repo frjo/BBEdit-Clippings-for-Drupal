@@ -1,1 +1,1 @@
-drupal_render_cache_by_query(#placeholderstart# $query #placeholderend#,#placeholderstart# $function #placeholderend#,#placeholderstart# $expire = CACHE_TEMPORARY #placeholderend#,#placeholderstart# $granularity = NULL #placeholderend#)
+drupal_render_cache_by_query(#placeholderstart# $query #placeholderend#, #placeholderstart# $function #placeholderend#, #placeholderstart# $expire = CACHE_TEMPORARY #placeholderend#, #placeholderstart# $granularity = NULL #placeholderend#)

@@ -1,1 +1,1 @@
-drupal_get_installed_schema_version(#placeholderstart# $module #placeholderend#,#placeholderstart# $reset = FALSE #placeholderend#,#placeholderstart# $array = FALSE #placeholderend#)
+drupal_get_installed_schema_version(#placeholderstart# $module #placeholderend#, #placeholderstart# $reset = FALSE #placeholderend#, #placeholderstart# $array = FALSE #placeholderend#)

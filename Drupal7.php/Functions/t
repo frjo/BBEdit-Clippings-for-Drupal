@@ -1,1 +1,1 @@
-t(#placeholderstart# $string #placeholderend#,#placeholderstart# array $args = array() #placeholderend#,#placeholderstart# array $options = array() #placeholderend#)
+t('#placeholderstart# $string #placeholderend#', #placeholderstart# array $args = array() #placeholderend#, #placeholderstart# array $options = array() #placeholderend#)

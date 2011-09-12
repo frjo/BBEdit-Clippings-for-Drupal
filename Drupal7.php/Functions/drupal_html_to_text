@@ -1,1 +1,1 @@
-drupal_html_to_text(#placeholderstart# $string #placeholderend#,#placeholderstart# $allowed_tags = NULL #placeholderend#)
+drupal_html_to_text(#placeholderstart# $string #placeholderend#, #placeholderstart# $allowed_tags = NULL #placeholderend#)

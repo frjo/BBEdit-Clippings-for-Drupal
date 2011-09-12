@@ -1,1 +1,1 @@
-check_markup(#placeholderstart# $text #placeholderend#,#placeholderstart# $format_id = NULL #placeholderend#,#placeholderstart# $langcode = '' #placeholderend#,#placeholderstart# $cache = FALSE #placeholderend#)
+check_markup(#placeholderstart# $text #placeholderend#, #placeholderstart# $format_id = NULL #placeholderend#, #placeholderstart# $langcode = '' #placeholderend#, #placeholderstart# $cache = FALSE #placeholderend#)

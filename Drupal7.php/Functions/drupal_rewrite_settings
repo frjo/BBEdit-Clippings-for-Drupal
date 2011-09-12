@@ -1,1 +1,1 @@
-drupal_rewrite_settings(#placeholderstart# $settings = array() #placeholderend#,#placeholderstart# $prefix = '' #placeholderend#)
+drupal_rewrite_settings(#placeholderstart# $settings = array() #placeholderend#, #placeholderstart# $prefix = '' #placeholderend#)

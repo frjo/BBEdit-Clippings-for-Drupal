@@ -1,1 +1,1 @@
-drupal_match_path(#placeholderstart# $path #placeholderend#,#placeholderstart# $patterns #placeholderend#)
+drupal_match_path(#placeholderstart# $path #placeholderend#, #placeholderstart# $patterns #placeholderend#)

@@ -1,1 +1,1 @@
-drupal_send_headers(#placeholderstart# $default_headers = array() #placeholderend#,#placeholderstart# $only_default = FALSE #placeholderend#)
+drupal_send_headers(#placeholderstart# $default_headers = array() #placeholderend#, #placeholderstart# $only_default = FALSE #placeholderend#)

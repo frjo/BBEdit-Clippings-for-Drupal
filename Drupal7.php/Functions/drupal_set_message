@@ -1,1 +1,1 @@
-drupal_set_message(#placeholderstart# $message = NULL #placeholderend#,#placeholderstart# $type = 'status' #placeholderend#,#placeholderstart# $repeat = TRUE #placeholderend#)
+drupal_set_message(#placeholderstart# $message = NULL #placeholderend#, #placeholderstart# $type = 'status' #placeholderend#, #placeholderstart# $repeat = TRUE #placeholderend#)

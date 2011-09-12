@@ -1,1 +1,1 @@
-drupal_load_stylesheet_content(#placeholderstart# $contents #placeholderend#,#placeholderstart# $optimize = FALSE #placeholderend#)
+drupal_load_stylesheet_content(#placeholderstart# $contents #placeholderend#, #placeholderstart# $optimize = FALSE #placeholderend#)

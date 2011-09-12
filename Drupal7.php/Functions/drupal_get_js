@@ -1,1 +1,1 @@
-drupal_get_js(#placeholderstart# $scope = 'header' #placeholderend#,#placeholderstart# $javascript = NULL #placeholderend#,#placeholderstart# $skip_alter = FALSE #placeholderend#)
+drupal_get_js(#placeholderstart# $scope = 'header' #placeholderend#, #placeholderstart# $javascript = NULL #placeholderend#, #placeholderstart# $skip_alter = FALSE #placeholderend#)

@@ -1,1 +1,1 @@
-drupal_tempnam(#placeholderstart# $directory #placeholderend#,#placeholderstart# $prefix #placeholderend#)
+drupal_tempnam(#placeholderstart# $directory #placeholderend#, #placeholderstart# $prefix #placeholderend#)

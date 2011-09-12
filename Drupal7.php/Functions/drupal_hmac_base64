@@ -1,1 +1,1 @@
-drupal_hmac_base64(#placeholderstart# $data #placeholderend#,#placeholderstart# $key #placeholderend#)
+drupal_hmac_base64(#placeholderstart# $data #placeholderend#, #placeholderstart# $key #placeholderend#)

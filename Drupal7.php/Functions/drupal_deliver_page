@@ -1,1 +1,1 @@
-drupal_deliver_page(#placeholderstart# $page_callback_result #placeholderend#,#placeholderstart# $default_delivery_callback = NULL #placeholderend#)
+drupal_deliver_page(#placeholderstart# $page_callback_result #placeholderend#, #placeholderstart# $default_delivery_callback = NULL #placeholderend#)
